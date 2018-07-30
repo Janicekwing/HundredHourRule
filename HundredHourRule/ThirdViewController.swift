@@ -1,19 +1,20 @@
 //
-//  SecondViewController.swift
+//  ThirdViewController.swift
 //  HundredHourRule
 //
-//  Created by Janice He on 7/21/18.
+//  Created by Janice He on 7/25/18.
 //  Copyright © 2018 Janice He. All rights reserved.
 //
 
 import UIKit
 
+class ThirdViewController: UIViewController {
 
-class SecondViewController: UIViewController, UITextFieldDelegate {
-
+    
+    @IBOutlet weak var goalTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 
         // Do any additional setup after loading the view.
     }
@@ -23,7 +24,10 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func changeBackgroundToRed(_ sender: Any) {
+        self.view.backgroundColor = UIColor.gray
+    }
+    
     /*
     // MARK: - Navigation
 
