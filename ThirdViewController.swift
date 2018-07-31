@@ -10,8 +10,10 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var sliderLabel: UILabel!
     
     @IBOutlet weak var goalTextField: UITextField!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,13 @@ class ThirdViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
+    @IBAction func sliderAction(_ sender: UISlider) {
+        sliderLabel.text = String(sender.value)
+        
+    }
+    
     
     @IBAction func changeBackgroundToRed(_ sender: Any) {
         self.view.backgroundColor = UIColor.gray
