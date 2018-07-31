@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F09D02D42103C42600B15DF7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D02D32103C42600B15DF7 /* SecondViewController.swift */; };
+		F09D02D62108D96B00B15DF7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09D02D52108D96B00B15DF7 /* ThirdViewController.swift */; };
 		F0AD12F320EBBB77000C5283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD12F220EBBB77000C5283 /* AppDelegate.swift */; };
 		F0AD12F520EBBB77000C5283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD12F420EBBB77000C5283 /* ViewController.swift */; };
 		F0AD12F820EBBB78000C5283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AD12F620EBBB77000C5283 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F09D02D32103C42600B15DF7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F09D02D52108D96B00B15DF7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		F0AD12EF20EBBB77000C5283 /* HundredHourRule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredHourRule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AD12F220EBBB77000C5283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0AD12F420EBBB77000C5283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		F0AD12E620EBBB77000C5283 = {
 			isa = PBXGroup;
 			children = (
+				F09D02D52108D96B00B15DF7 /* ThirdViewController.swift */,
 				F0AD12F120EBBB77000C5283 /* HundredHourRule */,
 				F0AD12F020EBBB77000C5283 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				F09D02D42103C42600B15DF7 /* SecondViewController.swift in Sources */,
 				F0AD12F520EBBB77000C5283 /* ViewController.swift in Sources */,
+				F09D02D62108D96B00B15DF7 /* ThirdViewController.swift in Sources */,
 				F0AD12F320EBBB77000C5283 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

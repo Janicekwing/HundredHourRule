@@ -10,6 +10,9 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    
+    @IBOutlet weak var goalTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +24,10 @@ class ThirdViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func changeBackgroundToRed(_ sender: Any) {
+        self.view.backgroundColor = UIColor.gray
+    }
+    
     /*
     // MARK: - Navigation
 
