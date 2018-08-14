@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,29 +15,29 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HundredHourRule" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BGr-L1-Wyd">
-                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="70" width="414" height="666"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="boL-B7-i5D">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="166.66666666666666"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hundred Hour Rule " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1K-iG-rhg">
-                                        <rect key="frame" x="0.0" y="149.5" width="375" height="149"/>
+                                        <rect key="frame" x="0.0" y="166.66666666666663" width="414" height="166.33333333333337"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When it becomes routine, it becomes easy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJv-3R-cvm">
-                                        <rect key="frame" x="0.0" y="298.5" width="375" height="149.5"/>
+                                        <rect key="frame" x="0.0" y="333" width="414" height="166.66666666666663"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eld-iS-06O">
-                                        <rect key="frame" x="0.0" y="448" width="375" height="149"/>
+                                        <rect key="frame" x="0.0" y="499.66666666666657" width="414" height="166.33333333333331"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Start Here"/>
                                         <connections>
@@ -67,134 +67,143 @@
             <objects>
                 <viewController id="Sq1-Ut-N54" customClass="SecondViewController" customModule="HundredHourRule" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zsx-mF-YFV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Philosophy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGr-05-dpY">
-                                <rect key="frame" x="125" y="73" width="125" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The more time you invest in something whether it is a new skill or language, the better you become. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgV-fR-IdU">
-                                <rect key="frame" x="16" y="81" width="343" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQl-89-pDm">
-                                <rect key="frame" x="16" y="157" width="343" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Hundred Hour Rule is a tool that allows you to keep track of yourself-- to keep moving forward, to build a streak and eventually a routine. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mB-P1-ocb">
-                                <rect key="frame" x="16" y="307" width="343" height="182"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">You clicked this app so you have already taken the first step to getting started. Take a moment to think of a long term skill that has been bothering you. When you're ready, enter it below. If you decide not to pursue this goal, you have the option to return. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVd-7i-A3F">
-                                <rect key="frame" x="132" y="523" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.34233545046868141" green="0.61116156356203177" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Are You Ready? ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="3ef-0D-SLo" kind="show" id="xJu-dd-V5E"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnr-ks-YzY">
-                                <rect key="frame" x="16" y="597" width="46" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="backToPage1" id="o5m-3N-Uv7"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Vtq-7x-kRJ">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Philosophy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGr-05-dpY">
+                                        <rect key="frame" x="147.33333333333334" y="0.0" width="119.33333333333334" height="32.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The more time you invest in something whether it is a new skill or language, the better you become. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgV-fR-IdU">
+                                        <rect key="frame" x="32" y="45.333333333333329" width="350" height="159.33333333333337"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="9EV-J7-NXs"/>
+                                            <constraint firstAttribute="height" constant="159" id="uLc-CX-GJl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQl-89-pDm">
+                                        <rect key="frame" x="32" y="217.66666666666663" width="350" height="171"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="171" id="oOL-4V-aHC"/>
+                                            <constraint firstAttribute="width" constant="350" id="s9w-R3-GG2"/>
+                                        </constraints>
+                                        <string key="text">The Hundred Hour Rule is a tool that allows you to keep track of yourself-- to keep moving forward, to build a streak and eventually a routine. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mB-P1-ocb">
+                                        <rect key="frame" x="32" y="401.66666666666669" width="350" height="182.33333333333331"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="182" id="0BZ-Bi-zFC"/>
+                                            <constraint firstAttribute="width" constant="350" id="phd-Dh-lLW"/>
+                                        </constraints>
+                                        <string key="text">You have already taken the first step to getting started. Take a moment to think of a long term skill that you've been meaning to work on. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVd-7i-A3F">
+                                        <rect key="frame" x="151" y="597" width="112" height="32"/>
+                                        <color key="backgroundColor" red="0.34233545046868141" green="0.61116156356203177" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Are You Ready? ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="3ef-0D-SLo" kind="show" id="xJu-dd-V5E"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnr-ks-YzY">
+                                        <rect key="frame" x="184" y="642" width="46" height="74"/>
+                                        <state key="normal" title="Return"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="backToPage1" id="o5m-3N-Uv7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vtq-7x-kRJ" firstAttribute="top" secondItem="3cn-kx-0L6" secondAttribute="top" id="2PS-ow-Jln"/>
+                            <constraint firstAttribute="trailing" secondItem="Vtq-7x-kRJ" secondAttribute="trailing" id="gHI-YU-jMm"/>
+                            <constraint firstAttribute="bottom" secondItem="Vtq-7x-kRJ" secondAttribute="bottom" id="jJh-jw-JOA"/>
+                            <constraint firstItem="Vtq-7x-kRJ" firstAttribute="leading" secondItem="3cn-kx-0L6" secondAttribute="leading" id="o1R-XV-vHb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3cn-kx-0L6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KvG-3C-px0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800.79999999999995" y="32.833583208395808"/>
+            <point key="canvasLocation" x="800.00000000000011" y="32.608695652173914"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="NIK-X7-ljG">
             <objects>
                 <viewController id="3ef-0D-SLo" customClass="ThirdViewController" customModule="HundredHourRule" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MHM-e9-zgy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much time will you commit each day? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMc-ra-uO3">
-                                <rect key="frame" x="0.0" y="271" width="375" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2.5" minValue="0.5" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-6E-LAH">
-                                <rect key="frame" x="38" y="341.5" width="299" height="31"/>
-                                <connections>
-                                    <action selector="sliderAction:" destination="3ef-0D-SLo" eventType="valueChanged" id="5KK-AI-xLV"/>
-                                </connections>
-                            </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What skill do you want to tackle?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHJ-Z3-ChT">
-                                <rect key="frame" x="62" y="120" width="250" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLv-OI-x2f">
-                                <rect key="frame" x="113" y="520" width="148" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How much time will you commit each day? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMc-ra-uO3">
+                                <rect key="frame" x="24" y="271" width="328" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Turn Background Red">
-                                    <color key="titleColor" red="1" green="0.092869963399396571" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="changeBackgroundToRed:" destination="3ef-0D-SLo" eventType="touchUpInside" id="Do3-Mf-rh9"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.5" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHF-OK-opE">
-                                <rect key="frame" x="139" y="411.5" width="97" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="yo" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xwe-P1-mNg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What skill do you want to tackle?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHJ-Z3-ChT">
+                                <rect key="frame" x="62" y="120" width="250" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2.5" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHF-OK-opE">
+                                <rect key="frame" x="139" y="411.5" width="97" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xwe-P1-mNg">
                                 <rect key="frame" x="139" y="191" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Optional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXy-ci-mFK">
+                                <rect key="frame" x="166" y="480" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.66566143134715028" green="0.66566143134715028" blue="0.66566143134715028" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When will you able to make this commitment? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kB-34-DEv">
+                                <rect key="frame" x="11" y="509" width="353" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.65100793393782386" green="0.65100793393782386" blue="0.65100793393782386" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2.5" minValue="0.5" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-6E-LAH">
+                                <rect key="frame" x="112" y="335" width="151" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="3ef-0D-SLo" eventType="valueChanged" id="5KK-AI-xLV"/>
+                                </connections>
+                            </slider>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.90399650850946844" blue="0.80265175482504636" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="PHF-OK-opE" firstAttribute="leading" secondItem="bJh-0a-R4D" secondAttribute="leading" constant="139" id="60e-Lr-yOw"/>
-                            <constraint firstItem="DHJ-Z3-ChT" firstAttribute="top" secondItem="bJh-0a-R4D" secondAttribute="top" constant="100" id="BAp-0p-lVw"/>
-                            <constraint firstItem="Xwe-P1-mNg" firstAttribute="top" secondItem="DHJ-Z3-ChT" secondAttribute="bottom" constant="50" id="Bgc-He-IIS"/>
-                            <constraint firstItem="Xwe-P1-mNg" firstAttribute="leading" secondItem="bJh-0a-R4D" secondAttribute="leading" constant="139" id="CQH-QT-qlW"/>
-                            <constraint firstItem="PHF-OK-opE" firstAttribute="top" secondItem="DnS-6E-LAH" secondAttribute="bottom" constant="40" id="EZ7-zp-TjZ"/>
-                            <constraint firstItem="bJh-0a-R4D" firstAttribute="trailing" secondItem="PHF-OK-opE" secondAttribute="trailing" constant="139" id="LUL-va-aCF"/>
-                            <constraint firstItem="bJh-0a-R4D" firstAttribute="trailing" secondItem="DnS-6E-LAH" secondAttribute="trailing" constant="40" id="VIf-Zn-mLY"/>
-                            <constraint firstItem="DnS-6E-LAH" firstAttribute="leading" secondItem="bJh-0a-R4D" secondAttribute="leading" constant="40" id="ZF7-qb-7Mv"/>
-                            <constraint firstItem="bJh-0a-R4D" firstAttribute="trailing" secondItem="DHJ-Z3-ChT" secondAttribute="trailing" constant="63" id="bLX-hj-pse"/>
-                            <constraint firstItem="bJh-0a-R4D" firstAttribute="trailing" secondItem="Xwe-P1-mNg" secondAttribute="trailing" constant="139" id="cWy-Ie-9Ba"/>
-                            <constraint firstItem="DHJ-Z3-ChT" firstAttribute="leading" secondItem="bJh-0a-R4D" secondAttribute="leading" constant="62" id="dkz-xT-ybz"/>
-                            <constraint firstItem="IMc-ra-uO3" firstAttribute="leading" secondItem="bJh-0a-R4D" secondAttribute="leading" id="gmd-Ue-xes"/>
-                            <constraint firstItem="bJh-0a-R4D" firstAttribute="trailing" secondItem="IMc-ra-uO3" secondAttribute="trailing" id="i53-hp-Ym8"/>
-                            <constraint firstItem="IMc-ra-uO3" firstAttribute="top" secondItem="Xwe-P1-mNg" secondAttribute="bottom" constant="50" id="siM-6R-VQr"/>
-                            <constraint firstItem="DnS-6E-LAH" firstAttribute="top" secondItem="IMc-ra-uO3" secondAttribute="bottom" constant="50" id="wRY-xg-nes"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bJh-0a-R4D"/>
                     </view>
                     <connections>
@@ -204,10 +213,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5r-nK-Jlp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="33"/>
+            <point key="canvasLocation" x="1588" y="32.833583208395808"/>
         </scene>
     </scenes>
     <resources>
-        <image name="clock" width="221" height="219"/>
+        <image name="clock" width="295" height="292"/>
     </resources>
 </document>

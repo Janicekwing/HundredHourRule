@@ -42,7 +42,6 @@
 		F0AD12E620EBBB77000C5283 = {
 			isa = PBXGroup;
 			children = (
-				F09D02D52108D96B00B15DF7 /* ThirdViewController.swift */,
 				F0AD12F120EBBB77000C5283 /* HundredHourRule */,
 				F0AD12F020EBBB77000C5283 /* Products */,
 			);
@@ -62,6 +61,7 @@
 				F0AD12F220EBBB77000C5283 /* AppDelegate.swift */,
 				F0AD12F420EBBB77000C5283 /* ViewController.swift */,
 				F09D02D32103C42600B15DF7 /* SecondViewController.swift */,
+				F09D02D52108D96B00B15DF7 /* ThirdViewController.swift */,
 				F0AD12F620EBBB77000C5283 /* Main.storyboard */,
 				F0AD12F920EBBB80000C5283 /* Assets.xcassets */,
 				F0AD12FB20EBBB80000C5283 /* LaunchScreen.storyboard */,

@@ -13,6 +13,8 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var sliderLabel: UILabel!
     
     @IBOutlet weak var goalTextField: UITextField!
+    
+    
 
     
     override func viewDidLoad() {
@@ -27,15 +29,27 @@ class ThirdViewController: UIViewController {
     }
     
 
+    let incrementValue: Float = 0.5
     @IBAction func sliderAction(_ sender: UISlider) {
-        sliderLabel.text = String(sender.value)
+        sliderLabel.text = String(round(sender.value/incrementValue) * incrementValue)
+    }
+    
+    class Goal {
         
+        var goal: String
+        var time: Double
+        
+        init(_ goal: String,_ time: Double){
+            self.goal = goal
+            self.time = time
+        }
     }
     
     
-    @IBAction func changeBackgroundToRed(_ sender: Any) {
-        self.view.backgroundColor = UIColor.gray
-    }
+    
+    
+    
+    
     
     /*
     // MARK: - Navigation
