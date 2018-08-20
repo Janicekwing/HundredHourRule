@@ -14,9 +14,6 @@ class ThirdViewController: UIViewController {
     
     @IBOutlet weak var goalTextField: UITextField!
     
-    
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,6 +23,15 @@ class ThirdViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToFourthScreen" {
+            let fourthScreen = segue.destination as! FourthViewController
+            if goalTextField.text != nil {
+            fourthScreen.fillIn = goalTextField.text!
+            }
+        }
     }
     
 
