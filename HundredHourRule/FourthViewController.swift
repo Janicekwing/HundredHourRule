@@ -11,6 +11,7 @@ import UIKit
 class FourthViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textToTransfer: UITextField!
     var fillIn:String = ""
     
     override func viewDidLoad() {
@@ -26,7 +27,20 @@ class FourthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func fourthButton(_ sender: Any) {
+        performSegue(withIdentifier: "goToFifthVC", sender: self)
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "goToFifthVC"{
+        
+        let destinationVC = segue.destination as! FifthViewController
+        
+        destinationVC.filler = textToTransfer.text!
+        }
+    }
     /*
     // MARK: - Navigation
 

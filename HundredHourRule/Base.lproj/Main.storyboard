@@ -200,6 +200,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
+                                    <action selector="thirdVCButton:" destination="3ef-0D-SLo" eventType="touchUpInside" id="bK4-PO-fTW"/>
                                     <segue destination="58G-y4-TGM" kind="show" identifier="goToFourthScreen" id="ss7-yH-epX"/>
                                 </connections>
                             </button>
@@ -221,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5r-nK-Jlp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="32.833583208395808"/>
+            <point key="canvasLocation" x="1586.9565217391305" y="32.608695652173914"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="hOI-xp-MZy">
@@ -243,15 +244,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="fourthButton:" destination="58G-y4-TGM" eventType="touchUpInside" id="bCe-ap-k5u"/>
                                     <segue destination="qwE-Qh-3of" kind="show" identifier="goToFifthVC" id="dyv-bd-3VU"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eTS-Wv-OzN">
+                                <rect key="frame" x="159" y="285" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bt6-Gy-NLq"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="rxg-hj-KOD" id="usU-s5-4Op"/>
+                        <outlet property="textToTransfer" destination="eTS-Wv-OzN" id="vlc-ey-Fjj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwU-9G-KnX" userLabel="First Responder" sceneMemberID="firstResponder"/>

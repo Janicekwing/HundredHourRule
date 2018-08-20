@@ -40,6 +40,11 @@ class ThirdViewController: UIViewController {
         sliderLabel.text = String(round(sender.value/incrementValue) * incrementValue)
     }
     
+    
+    @IBAction func thirdVCButton(_ sender: Any) {
+        performSegue(withIdentifier: "goToFourthScreen", sender: self)
+    }
+    
     class Goal {
         
         var goal: String

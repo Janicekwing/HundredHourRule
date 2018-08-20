@@ -9,6 +9,8 @@
 import UIKit
 
 class FifthViewController: UIViewController {
+    
+    var filler = ""
 
     @IBOutlet weak var fifthVCLabel: UILabel!
     
@@ -16,6 +18,7 @@ class FifthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        fifthVCLabel.text = filler
         // Do any additional setup after loading the view.
     }
 
