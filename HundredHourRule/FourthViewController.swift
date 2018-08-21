@@ -2,7 +2,7 @@
 //  FourthViewController.swift
 //  HundredHourRule
 //
-//  Created by Janice He on 8/18/18.
+//  Created by Janice He on 8/21/18.
 //  Copyright © 2018 Janice He. All rights reserved.
 //
 
@@ -10,15 +10,15 @@ import UIKit
 
 class FourthViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var textToTransfer: UITextField!
-    var fillIn:String = ""
+    var goal = "" 
+    
+    @IBOutlet weak var fourthLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        label.text = fillIn
 
+        fourthLabel.text = goal
         // Do any additional setup after loading the view.
     }
 
@@ -27,20 +27,10 @@ class FourthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func fourthButton(_ sender: Any) {
-        performSegue(withIdentifier: "goToFifthVC", sender: self)
+    @IBAction func dismissButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == "goToFifthVC"{
-        
-        let destinationVC = segue.destination as! FifthViewController
-        
-        destinationVC.filler = textToTransfer.text!
-        }
-    }
     /*
     // MARK: - Navigation
 

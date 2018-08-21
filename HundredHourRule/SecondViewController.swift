@@ -9,8 +9,14 @@
 import UIKit
 
 
-class SecondViewController: UIViewController, UITextFieldDelegate {
+class SecondViewController: UIViewController, UITextFieldDelegate, ReturnDelegate {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    @IBOutlet weak var secondLabel: UILabel!
+    
+    @IBOutlet weak var thirdLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,7 +29,21 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func takeItBack(data: String) {
+        firstLabel.isHidden = true
+        thirdLabel.isHidden = true
+        secondLabel.text = data
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToNo"{
+            let destinationVC = segue.destination as! NoViewController
+            destinationVC.delegate = self
+        }
+    }
 
+    
     /*
     // MARK: - Navigation
 

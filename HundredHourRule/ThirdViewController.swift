@@ -25,25 +25,26 @@ class ThirdViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToFourthScreen" {
-            let fourthScreen = segue.destination as! FourthViewController
-            if goalTextField.text != nil {
-            fourthScreen.fillIn = goalTextField.text!
-            }
-        }
-    }
     
-
     let incrementValue: Float = 0.5
     @IBAction func sliderAction(_ sender: UISlider) {
         sliderLabel.text = String(round(sender.value/incrementValue) * incrementValue)
     }
     
     
-    @IBAction func thirdVCButton(_ sender: Any) {
-        performSegue(withIdentifier: "goToFourthScreen", sender: self)
+    @IBAction func thirdButton(_ sender: Any) {
+        performSegue(withIdentifier: "goToFourthVC", sender: self)
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToFourthVC" {
+            let destinationVC = segue.destination as! FourthViewController
+            destinationVC.goal = goalTextField.text!
+        }
+    }
+    
+
     
     class Goal {
         
