@@ -16,6 +16,7 @@
 		F0AD12FD20EBBB80000C5283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AD12FB20EBBB80000C5283 /* LaunchScreen.storyboard */; };
 		F0EB50E9212C5254005F2910 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB50E8212C5254005F2910 /* FourthViewController.swift */; };
 		F0EB50ED212CAC52005F2910 /* NoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB50EC212CAC52005F2910 /* NoViewController.swift */; };
+		F0EB50EF212CE4A8005F2910 /* YesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EB50EE212CE4A8005F2910 /* YesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F0AD12FE20EBBB80000C5283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0EB50E8212C5254005F2910 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		F0EB50EC212CAC52005F2910 /* NoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoViewController.swift; sourceTree = "<group>"; };
+		F0EB50EE212CE4A8005F2910 /* YesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		F0AD12F120EBBB77000C5283 /* HundredHourRule */ = {
 			isa = PBXGroup;
 			children = (
+				F0EB50EE212CE4A8005F2910 /* YesViewController.swift */,
 				F0AD12F220EBBB77000C5283 /* AppDelegate.swift */,
 				F0AD12F420EBBB77000C5283 /* ViewController.swift */,
 				F09D02D32103C42600B15DF7 /* SecondViewController.swift */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EB50EF212CE4A8005F2910 /* YesViewController.swift in Sources */,
 				F09D02D42103C42600B15DF7 /* SecondViewController.swift in Sources */,
 				F0EB50ED212CAC52005F2910 /* NoViewController.swift in Sources */,
 				F0AD12F520EBBB77000C5283 /* ViewController.swift in Sources */,

@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController, goToYesDelegate {
 
     @IBOutlet weak var sliderLabel: UILabel!
     
     @IBOutlet weak var goalTextField: UITextField!
+    
+    @IBOutlet weak var hiddenLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +44,17 @@ class ThirdViewController: UIViewController {
             let destinationVC = segue.destination as! FourthViewController
             destinationVC.goal = goalTextField.text!
         }
+        if segue.identifier == "goToYes"{
+            let destinationVC = segue.destination as! YesViewController
+            destinationVC.delegate = self
+        }
     }
+    
+    func sendDataBack(data: String) {
+        hiddenLabel.isHidden = false
+        hiddenLabel.text = data
+    }
+    
     
 
     
